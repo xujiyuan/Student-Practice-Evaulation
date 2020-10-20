@@ -1,38 +1,14 @@
-const data = [
-  {
-    id: 3,
-    firstName: 'Alan',
-    lastName: 'Chen',
-    organization: 'OIT',
-  },
-  {
-    id: 1,
-    firstName: 'Robert',
-    lastName: 'Foreman',
-    organization: 'OIT',
-  },
-  {
-    id: 2,
-    firstName: 'Garrett',
-    lastName: 'Brant',
-    organization: 'Registrar',
-  },
-  {
-    id: 5,
-    firstName: 'Karl',
-    lastName: 'Francis',
-    organization: 'OIT',
-  },
-  {
-    id: 4,
-    firstName: 'Tyler',
-    lastName: 'Bowers',
-    organization: 'President',
-  },
-  {
-    id: 100,
-    firstName: 'Jimmy',
-    lastName: 'Chen',
-    organization: 'OIT',
-  },
-];
+# Student practice questions: playing with list in javascript
+
+## This practice is very simple but very useful, it's a good way for you to get familar with JS native functions.
+
+## find the list of test data in index.js
+
+## Given a list of employees, I want a subset of data with requirements below:
+
+- Only OIT employees
+- a new field called fullname that concat firstname and lastname with a space in between
+- I do not want to get duplicate last name, only pick one when there are people with same last name
+- I want the id sorted asc
+
+## Please try to use javascript native functions such as filter, find, map, reduce etc to accomplish this task.
