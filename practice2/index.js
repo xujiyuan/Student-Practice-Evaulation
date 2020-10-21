@@ -4,6 +4,7 @@ const i = 44;
 
 (function () {
   var i = 22;
+  var j = 0;
   var name = undefined;
   var self = this;
 
@@ -25,10 +26,10 @@ const i = 44;
     console.log('#6 =>', i);
 
     if (name === 'marcus') {
-      var j = 55;
+      j = 55;
       var salary = '100K';
     }
-    console.log('#j =>', j);
+    console.log('#9 =>', j);
   }
 
   console.log('#7 =>', i);
@@ -37,6 +38,7 @@ const i = 44;
 
   a();
   b();
+  console.log('#10 =>', j);
 })();
 
 console.log('#8 =>', i);
