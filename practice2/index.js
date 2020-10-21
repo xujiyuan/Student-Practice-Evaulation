@@ -8,30 +8,30 @@ const i = 44;
   var self = this;
 
   function a() {
-    console.log('#1 =>', i); // 22
+    console.log('#1 =>', i);
     for (let i = 0; i < 5; i++) {
-      console.log('#2 =>', i); // 0, 1, 2, 3, 4
+      console.log('#2 =>', i);
     }
-    console.log('#3 =>', i); //4 错了， 22
+    console.log('#3 =>', i);
   }
 
   function b() {
     var i;
-    console.log('#4 =>', i); //undefined
+    console.log('#4 =>', i);
 
     for (var i = 0; i < 5; i++) {
-      console.log('#5 =>', i); //0, 1, 2, 3, 4
+      console.log('#5 =>', i);
     }
-    console.log('#6 =>', i); //5
+    console.log('#6 =>', i);
 
     if (name === 'marcus') {
       var j = 55;
       var salary = '100K';
     }
-    console.log('#j =>', j); // 55
+    console.log('#j =>', j);
   }
 
-  console.log('#7 =>', i); //22
+  console.log('#7 =>', i);
 
   name = 'marcus';
 
@@ -39,5 +39,4 @@ const i = 44;
   b();
 })();
 
-console.log('#8 =>', i); //44
-
+console.log('#8 =>', i);
