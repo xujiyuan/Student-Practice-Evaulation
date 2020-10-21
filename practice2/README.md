@@ -1,5 +1,9 @@
-# var, let, const. understand the variable scope in javascript
+## var, let and const
 
-## mark the value of i after each console log
+### You want to do a quick google search to understand the scope of variables in javascript depends on how they were defined.
 
-## only run the file to verify your answer. we can discuss on what you missed.
+### Try to predict and explan the value of i
+
+### run the code and check the result with your answer
+
+### bring question to discussion if you any
